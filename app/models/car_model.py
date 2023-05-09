@@ -1,4 +1,4 @@
-from app.conn_db import db
+from conn_db import db
 
 
 class Car(db.Model):

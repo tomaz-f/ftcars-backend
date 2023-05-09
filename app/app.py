@@ -1,6 +1,6 @@
 from flask import Flask
-from app.conn_db import config_database
-from app.routes import config_routes
+from conn_db import config_database
+from routes import config_routes
 
 
 def app_start():

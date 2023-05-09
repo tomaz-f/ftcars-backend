@@ -1,9 +1,8 @@
 from flask_restful import Resource
 from flask import request
 from schemas.car_schema import car_schema, cars_schema
-from app.conn_db import db
+from conn_db import db
 from models.car_model import Car
-from mappers.car_mapper import CarMapper
 
 
 class CarResource(Resource):
